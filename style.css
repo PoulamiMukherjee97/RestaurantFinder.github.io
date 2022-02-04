@@ -1,0 +1,26 @@
+body{
+    background-color: rgb(220, 53, 69);
+    background-image: url("https://www.santabanta.com/images/wallpapers/food/picture-of-a-delicious-pizza-on-the-table-in-restaurant-1024-768-0.jpg") ;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.form{
+    width: 40%;
+}
+.spinner-border{
+    height: 7rem;
+    width: 7rem;
+}
+.hide-loader{
+    display: none;
+}
+@media screen and (max-width : 480px) {
+    .form{
+        width:70%;
+    }
+    img{
+        height: 80%;
+        width:80%;
+    }
+}
